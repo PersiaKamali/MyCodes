@@ -18,7 +18,7 @@ To do this we fix the following paramaters of the network:
 * The number of neurons in the network, $N$;
 * The number of gaussian populations in the network, $P$;
 * The fraction of neurons in each population, $\bold{\alpha} = (\alpha_1, \alpha_2, ..., \alpha_P)$;
-* Mean and variance of the right connectivity patterns $\bold{m}^{(\bold{r})} = \{m_i^{(r)}\}_{i=1,...,N}$ for $r=1,2$ for each population, that is, respectively, $a_{m_r}^{(p)}$ and $\sigma_{I^2}^{(p)}$; 
+* Mean and variance of the right connectivity patterns $\textbf{m}^{(\bold{r})} = \{m_i^{(r)}\}_{i=1,...,N}$ for $r=1,2$ for each population, that is, respectively, $a_{m_r}^{(p)}$ and $\sigma_{I^2}^{(p)}$; 
 * Mean and variance of the external input $I$, $a_I^{(p)}$ and $\sigma_{I^2}^{(p)}$.
 
 The means of the connectivity patterns $\bold{m}^{(r)}$ and the mean of the input $I$ are assigned randomly by a uniform distribution in $(a,b)$, while the variances are sampled by an exponential distribution with paramater $\theta$.
